@@ -13,7 +13,7 @@ function Home() {
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
         videoDescription={
-          "O que faz uma desenvolvedora front-end? #HipstersPontoTube"
+          "Três programadores conversam se testes no front-end são realmente necessários. Vamos entender nesse podcast quais os meios, técnicas e estratégias para melhorar seus testes e sua conexão com o usuário."
         }
       />
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
