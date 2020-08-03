@@ -20,10 +20,10 @@ export const VideoCardContainer = styled.a`
   padding: 6px;
 
   transition: opacity 0.3s;
-  /* &:hover,
+  &:hover,
   &:focus {
     opacity: 0.5;
-  } */
+  }
 
   &:not(:first-child) {
     margin-left: 20px;
