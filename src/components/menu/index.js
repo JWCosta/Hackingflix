@@ -8,7 +8,7 @@ export default function Menu() {
   return (
     <nav className="Menu">
       <Link to="/">
-        <img className="Logo" src={Logo} alt="Logo Devflix" />
+        <img className="Logo" src={Logo} alt="Logo Hackingflix" />
       </Link>
       <Button as={Link} to="/cadastro/video" className="ButtonLink">
         Novo Vídeo

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const VideoCardContainer = styled.a`
   border: 2px solid;
@@ -8,8 +8,8 @@ export const VideoCardContainer = styled.a`
   cursor: pointer;
   color: white;
   flex: 0 0 298px;
-  width: 298px;
-  height: 197px;
+  width: 380px;
+  height: 360px;
   background-image: ${({ url }) => `url(${url})`};
   background-size: cover;
   background-position: center;
@@ -17,14 +17,14 @@ export const VideoCardContainer = styled.a`
   position: relative;
   display: flex;
   align-items: flex-end;
-  padding: 16px;
+  padding: 6px;
 
-  transition: opacity .3s;
-  &:hover,
+  transition: opacity 0.3s;
+  /* &:hover,
   &:focus {
-    opacity: .5;
-  }
-  
+    opacity: 0.5;
+  } */
+
   &:not(:first-child) {
     margin-left: 20px;
   }

@@ -52,8 +52,8 @@
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Seja um Programador Back-End de Sucesso (dicas que gostaríamos ter recebido) // Vlog #98",
+          "url": "https://www.youtube.com/watch?v=TJ90DZjYdWI"
         },
         {
           "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
@@ -70,6 +70,36 @@
         {
           "titulo": "Usando Git Direito",
           "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+        }
+      ]
+    },
+    {
+      "titulo": "Linux e suas curiosidades",
+      "cor": "#6B9AFF",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "O que é Linux? (Explicação COMPLETA para iniciantes) - 2020",
+          "url": "https://www.youtube.com/watch?v=K05CssAbQgo"
+        },
+        {
+          "titulo": "O Guia DEFINITIVO de UBUNTU para Devs Iniciantes",
+          "url": "https://www.youtube.com/watch?v=epiyExCyb2s"
+        },
+        {
+          "titulo": "10 dicas em 10 minutos ⏰ Ubuntu (Linux)",
+          "url": "https://www.youtube.com/watch?v=y0yx-A7y6Gk"
+        },
+        {
+          "titulo": "Aprenda os comandos básicos do Linux - Terminal Ubuntu",
+          "url": "https://www.youtube.com/watch?v=JEhVB4VHsTI"
+        },
+        {
+          "titulo": "Este Linux é mais Windows que o próprio Windows",
+          "url": "https://www.youtube.com/watch?v=kkOVR5bfdiM"
         }
       ]
     },
@@ -134,8 +164,8 @@
           "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Trailer de Apex Legends Temporada 5 - Sorte Grande",
+          "url": "https://www.youtube.com/watch?v=lwp429eqER4"
         },
         {
           "titulo": "Resident Evil 8",
