@@ -1,278 +1,306 @@
 {
   "categorias": [
     {
-      "id": 1,
+      "categoriaId": 1,
       "titulo": "Linux",
       "descricao": "Videos sobre o S.O Linux e suas distros",
-      "cor": "#6B9AFF",
-      "videos": [
-        {
-          "videoID": 1,
-          "titulo": "O que é Linux? (Explicação COMPLETA para iniciantes) - 2020",
-          "url": "https://www.youtube.com/watch?v=K05CssAbQgo"
-        },
-        {
-          "videoID": 2,
-          "titulo": "O Guia DEFINITIVO de UBUNTU para Devs Iniciantes",
-          "url": "https://www.youtube.com/watch?v=epiyExCyb2s"
-        },
-        {
-          "videoID": 3,
-          "titulo": "10 dicas em 10 minutos ⏰ Ubuntu (Linux)",
-          "url": "https://www.youtube.com/watch?v=y0yx-A7y6Gk"
-        },
-        {
-          "videoID": 4,
-          "titulo": "Aprenda os comandos básicos do Linux - Terminal Ubuntu",
-          "url": "https://www.youtube.com/watch?v=JEhVB4VHsTI"
-        },
-        {
-          "videoID": 5,
-          "titulo": "Este Linux é mais Windows que o próprio Windows",
-          "url": "https://www.youtube.com/watch?v=kkOVR5bfdiM"
-        },
-        {
-          "videoID": 6,
-          "titulo": "RESSUSCITANDO o PIOR PC do MUNDO! (com Linux)",
-          "url": "https://www.youtube.com/watch?v=2Pms0HOFSng"
-        }
-      ]
+      "cor": "#6B9AFF"
     },
     {
-      "id": 2,
+      "categoriaId": 2,
       "titulo": "Front-end",
       "descricao": "Videos sobre desenvolvimento front-end",
-      "cor": "#6BD1FF",
-      "videos": [
-        {
-          "videoID": 7,
-          "titulo": "Boas práticas no front-end, técnicas e estratégias",
-          "url": "https://www.youtube.com/watch?v=L0zuZYh800Q"
-        },
-        {
-          "videoID": 8,
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-        },
-        {
-          "videoID": 9,
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-        },
-        {
-          "videoID": 10,
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-        },
-        {
-          "videoID": 11,
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-        },
-        {
-          "videoID": 12,
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-        },
-        {
-          "videoID": 13,
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "videoID": 14,
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }
-      ]
+      "cor": "#6BD1FF"
     },
     {
-      "id": 3,
+      "categoriaId": 3,
       "titulo": "Back-end",
       "descricao": "Videos sobre desenvolvimento back-end",
-      "cor": "#00C86F",
-      "videos": [
-        {
-          "videoID": 15,
-          "titulo": "Seja um Programador Back-End de Sucesso (dicas que gostaríamos ter recebido)",
-          "url": "https://www.youtube.com/watch?v=TJ90DZjYdWI"
-        },
-        {
-          "videoID": 16,
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-        },
-        {
-          "videoID": 17,
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-        },
-        {
-          "videoID": 18,
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        },
-        {
-          "videoID": 19,
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-        }
-      ]
+      "cor": "#00C86F"
     },
     {
-      "id": 4,
+      "categoriaId": 4,
       "titulo": "Cyber Security",
       "descricao": "Videos sobre segurança da informação ",
-      "cor": "gray",
-      "videos": [
-        {
-          "videoID": 20,
-          "titulo": "Por onde começar em segurança da informação?",
-          "url": "https://www.youtube.com/watch?v=3MVrwuf0XO8"
-        },
-        {
-          "videoID": 21,
-          "titulo": "Entendendo Conceitos Básicos de CRIPTOGRAFIA | Parte 1/2",
-          "url": "https://www.youtube.com/watch?v=CcU5Kc_FN_4"
-        },
-        {
-          "videoID": 22,
-          "titulo": "Entendendo Conceitos Básicos de CRIPTOGRAFIA | Parte 2/2",
-          "url": "https://www.youtube.com/watch?v=HCHqtpipwu4"
-        },
-        {
-          "videoID": 23,
-          "titulo": "Entrevista com Marcelo Lau | The Noite (16/08/19)",
-          "url": "https://www.youtube.com/watch?v=BSqOX0LlzfY"
-        },
-        {
-          "videoID": 24,
-          "titulo": "Você Precisa Conhecer Melhor esse ANTIVÍRUS GRATUITO, Sensacional !",
-          "url": "https://www.youtube.com/watch?v=IWy19z8KqtQ"
-        }
-      ]
+      "cor": "gray"
     },
     {
-      "id": 5,
+      "categoriaId": 5,
       "titulo": "Ethical Hacking",
       "descricao": "Videos sobre sobre experimentos hacking e como se tornar um hacker",
-      "cor": "#956462",
-      "videos": [
-        {
-          "videoID": 25,
-          "titulo": "Hacker profissional responde perguntas sobre hacking do instagram | Pentest",
-          "url": "https://www.youtube.com/watch?v=d_jScH016Zw"
-        },
-        {
-          "videoID": 26,
-          "titulo": "Qual Linguagem de Programação estudar para ser um Hacker?",
-          "url": "https://www.youtube.com/watch?v=GlB8oz2lizs"
-        },
-        {
-          "videoID": 27,
-          "titulo": "Como virar um Hacker ?",
-          "url": "https://www.youtube.com/watch?v=7HKOskNj7bk"
-        },
-        {
-          "videoID": 28,
-          "titulo": "HACKEANDO pela fragilidade HUMANA (ft. Metaforando)",
-          "url": "https://www.youtube.com/watch?v=8HTVgCt-ubQ"
-        }
-      ]
+      "cor": "#956462"
     },
     {
-      "id": 6,
+      "categoriaId": 6,
       "titulo": "Experimentos com tecnologia",
       "descricao": "Videos sobre experimentos relacionados à tecnologia",
-      "cor": "#6b5be2",
-      "videos": [
-        {
-          "videoID": 29,
-          "titulo": "Fiz um ESPELHO INTELIGENTE (Smart Mirror)",
-          "url": "https://www.youtube.com/watch?v=Z1eOakt0ON8"
-        },
-        {
-          "videoID": 30,
-          "titulo": "Como ficou o PC DA XUXA modificado",
-          "url": "https://www.youtube.com/watch?v=6Ju0f0pS6q4&t=3s"
-        },
-        {
-          "videoID": 31,
-          "titulo": "Coloquei uma RTX 2080 Ti no PC DA XUXA",
-          "url": "https://www.youtube.com/watch?v=Azs5QyDg0_k"
-        },
-        {
-          "videoID": 32,
-          "titulo": "Fiz um monitor SECRETO",
-          "url": "https://www.youtube.com/watch?v=A7ITbEsACa8"
-        },
-        {
-          "videoID": 33,
-          "titulo": "Desmontei meu monitor pra deixar ele TRANSPARENTE",
-          "url": "https://www.youtube.com/watch?v=ZVzAMq5yPMk"
-        }
-      ]
+      "cor": "#6b5be2"
     },
     {
-      "id": 7,
+      "categoriaId": 7,
       "titulo": "Filmes",
       "descricao": "Videos recomendados de filmes ",
-      "cor": "orange",
-      "videos": [
-        {
-          "videoID": 34,
-          "titulo": "Vingadores Ultimato",
-          "url": "https://www.youtube.com/watch?v=sQJAUl6xupI"
-        },
-        {
-          "videoID": 35,
-          "titulo": "Pantera Negra",
-          "url": "https://www.youtube.com/watch?v=wL4a4MafSjQ&t=4s"
-        },
-        {
-          "videoID": 36,
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "videoID": 37,
-          "titulo": "À Procura da Felicidade",
-          "url": "https://www.youtube.com/watch?v=yHgiEADa5M8"
-        }
-      ]
+      "cor": "orange"
     },
     {
-      "id": 8,
+      "categoriaId": 8,
       "titulo": "Games",
       "descricao": "Videos recomendados de games ",
-      "cor": "red",
-      "videos": [
-        {
-          "videoID": 38,
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "videoID": 39,
-          "titulo": "Trailer de Apex Legends Temporada 5 - Sorte Grande",
-          "url": "https://www.youtube.com/watch?v=lwp429eqER4"
-        },
-        {
-          "videoID": 40,
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "videoID": 41,
-          "titulo": "Call of Duty®: Warzone",
-          "url": "https://www.youtube.com/watch?v=0E44DClsX5Q"
-        },
-        {
-          "videoID": 42,
-          "titulo": "Ghost of Tsushima",
-          "url": "https://www.youtube.com/watch?v=b_iU_gnn28U"
-        }
-      ]
+      "cor": "red"
+    }
+  ],
+  "videos": [
+    {
+      "categoriaId": 1,
+      "videoID": 1,
+      "titulo": "O que é Linux? (Explicação COMPLETA para iniciantes) - 2020",
+      "url": "https://www.youtube.com/watch?v=K05CssAbQgo"
+    },
+    {
+      "categoriaId": 1,
+      "videoID": 2,
+      "titulo": "O Guia DEFINITIVO de UBUNTU para Devs Iniciantes",
+      "url": "https://www.youtube.com/watch?v=epiyExCyb2s"
+    },
+    {
+      "categoriaId": 1,
+      "videoID": 3,
+      "titulo": "10 dicas em 10 minutos ⏰ Ubuntu (Linux)",
+      "url": "https://www.youtube.com/watch?v=y0yx-A7y6Gk"
+    },
+    {
+      "categoriaId": 1,
+      "videoID": 4,
+      "titulo": "Aprenda os comandos básicos do Linux - Terminal Ubuntu",
+      "url": "https://www.youtube.com/watch?v=JEhVB4VHsTI"
+    },
+    {
+      "categoriaId": 1,
+      "videoID": 5,
+      "titulo": "Este Linux é mais Windows que o próprio Windows",
+      "url": "https://www.youtube.com/watch?v=kkOVR5bfdiM"
+    },
+    {
+      "categoriaId": 1,
+      "videoID": 6,
+      "titulo": "RESSUSCITANDO o PIOR PC do MUNDO! (com Linux)",
+      "url": "https://www.youtube.com/watch?v=2Pms0HOFSng"
+    },
+    {
+      "categoriaId": 2,
+      "videoID": 7,
+      "titulo": "Boas práticas no front-end, técnicas e estratégias",
+      "url": "https://www.youtube.com/watch?v=L0zuZYh800Q"
+    },
+    {
+      "categoriaId": 2,
+      "videoID": 8,
+      "titulo": "SEO com React",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "categoriaId": 2,
+      "videoID": 9,
+      "titulo": "Componentização com VanillaJS #AluraMais",
+      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+    },
+    {
+      "categoriaId": 2,
+      "videoID": 10,
+      "titulo": "Pare de chutar e aprenda a display: inline #01",
+      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+    },
+    {
+      "categoriaId": 2,
+      "videoID": 11,
+      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
+      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+    },
+    {
+      "categoriaId": 2,
+      "videoID": 12,
+      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+    },
+    {
+      "categoriaId": 2,
+      "videoID": 13,
+      "titulo": "Novidades do Angular v9",
+      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+    },
+    {
+      "categoriaId": 2,
+      "videoID": 14,
+      "titulo": "Base para aprender os frameworks",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+    },
+    {
+      "categoriaId": 3,
+      "videoID": 15,
+      "titulo": "Seja um Programador Back-End de Sucesso (dicas que gostaríamos ter recebido)",
+      "url": "https://www.youtube.com/watch?v=TJ90DZjYdWI"
+    },
+    {
+      "categoriaId": 3,
+      "videoID": 16,
+      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
+      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+    },
+    {
+      "categoriaId": 3,
+      "videoID": 17,
+      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
+      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+    },
+    {
+      "categoriaId": 3,
+      "videoID": 18,
+      "titulo": "API: Dicionário do Programador",
+      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+    },
+    {
+      "categoriaId": 3,
+      "videoID": 19,
+      "titulo": "Usando Git Direito",
+      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+    },
+    {
+      "categoriaId": 4,
+      "videoID": 20,
+      "titulo": "Por onde começar em segurança da informação?",
+      "url": "https://www.youtube.com/watch?v=3MVrwuf0XO8"
+    },
+    {
+      "categoriaId": 4,
+      "videoID": 21,
+      "titulo": "Entendendo Conceitos Básicos de CRIPTOGRAFIA | Parte 1/2",
+      "url": "https://www.youtube.com/watch?v=CcU5Kc_FN_4"
+    },
+    {
+      "categoriaId": 4,
+      "videoID": 22,
+      "titulo": "Entendendo Conceitos Básicos de CRIPTOGRAFIA | Parte 2/2",
+      "url": "https://www.youtube.com/watch?v=HCHqtpipwu4"
+    },
+    {
+      "categoriaId": 4,
+      "videoID": 23,
+      "titulo": "Entrevista com Marcelo Lau | The Noite (16/08/19)",
+      "url": "https://www.youtube.com/watch?v=BSqOX0LlzfY"
+    },
+    {
+      "categoriaId": 4,
+      "videoID": 24,
+      "titulo": "Você Precisa Conhecer Melhor esse ANTIVÍRUS GRATUITO, Sensacional !",
+      "url": "https://www.youtube.com/watch?v=IWy19z8KqtQ"
+    },
+    {
+      "categoriaId": 5,
+      "videoID": 25,
+      "titulo": "Hacker profissional responde perguntas sobre hacking do instagram | Pentest",
+      "url": "https://www.youtube.com/watch?v=d_jScH016Zw"
+    },
+    {
+      "categoriaId": 5,
+      "videoID": 26,
+      "titulo": "Qual Linguagem de Programação estudar para ser um Hacker?",
+      "url": "https://www.youtube.com/watch?v=GlB8oz2lizs"
+    },
+    {
+      "categoriaId": 5,
+      "videoID": 27,
+      "titulo": "Como virar um Hacker ?",
+      "url": "https://www.youtube.com/watch?v=7HKOskNj7bk"
+    },
+    {
+      "categoriaId": 5,
+      "videoID": 28,
+      "titulo": "HACKEANDO pela fragilidade HUMANA (ft. Metaforando)",
+      "url": "https://www.youtube.com/watch?v=8HTVgCt-ubQ"
+    },
+    {
+      "categoriaId": 6,
+      "videoID": 29,
+      "titulo": "Fiz um ESPELHO INTELIGENTE (Smart Mirror)",
+      "url": "https://www.youtube.com/watch?v=Z1eOakt0ON8"
+    },
+    {
+      "categoriaId": 6,
+      "videoID": 30,
+      "titulo": "Como ficou o PC DA XUXA modificado",
+      "url": "https://www.youtube.com/watch?v=6Ju0f0pS6q4&t=3s"
+    },
+    {
+      "categoriaId": 6,
+      "videoID": 31,
+      "titulo": "Coloquei uma RTX 2080 Ti no PC DA XUXA",
+      "url": "https://www.youtube.com/watch?v=Azs5QyDg0_k"
+    },
+    {
+      "categoriaId": 6,
+      "videoID": 32,
+      "titulo": "Fiz um monitor SECRETO",
+      "url": "https://www.youtube.com/watch?v=A7ITbEsACa8"
+    },
+    {
+      "categoriaId": 6,
+      "videoID": 33,
+      "titulo": "Desmontei meu monitor pra deixar ele TRANSPARENTE",
+      "url": "https://www.youtube.com/watch?v=ZVzAMq5yPMk"
+    },
+    {
+      "categoriaId": 7,
+      "videoID": 34,
+      "titulo": "Vingadores Ultimato",
+      "url": "https://www.youtube.com/watch?v=sQJAUl6xupI"
+    },
+    {
+      "categoriaId": 7,
+      "videoID": 35,
+      "titulo": "Pantera Negra",
+      "url": "https://www.youtube.com/watch?v=wL4a4MafSjQ&t=4s"
+    },
+    {
+      "categoriaId": 7,
+      "videoID": 36,
+      "titulo": "A Chegada",
+      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+    },
+    {
+      "categoriaId": 7,
+      "videoID": 37,
+      "titulo": "À Procura da Felicidade",
+      "url": "https://www.youtube.com/watch?v=yHgiEADa5M8"
+    },
+    {
+      "categoriaId": 8,
+      "videoID": 38,
+      "titulo": "God of War 4",
+      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+    },
+    {
+      "categoriaId": 8,
+      "videoID": 39,
+      "titulo": "Trailer de Apex Legends Temporada 5 - Sorte Grande",
+      "url": "https://www.youtube.com/watch?v=lwp429eqER4"
+    },
+    {
+      "categoriaId": 8,
+      "videoID": 40,
+      "titulo": "Resident Evil 8",
+      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "categoriaId": 8,
+      "videoID": 41,
+      "titulo": "Call of Duty®: Warzone",
+      "url": "https://www.youtube.com/watch?v=0E44DClsX5Q"
+    },
+    {
+      "categoriaId": 8,
+      "videoID": 42,
+      "titulo": "Ghost of Tsushima",
+      "url": "https://www.youtube.com/watch?v=b_iU_gnn28U"
     }
   ]
 }
