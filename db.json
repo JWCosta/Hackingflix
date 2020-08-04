@@ -2,45 +2,46 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Front-end",
-      "descricao": "Videos sobre desenvolvimento front-end",
-      "cor": "#6BD1FF"
-    },
-    {
-      "id": 2,
-      "nome": "Back-end",
-      "descricao": "Videos sobre desenvolvimento back-end",
-      "cor": "#00C86F"
-    },
-    {
-      "id": 3,
       "nome": "Linux",
       "descricao": "Videos sobre o S.O Linux e suas distros",
       "cor": "#6B9AFF"
     },
     {
+      "id": 2,
+      "nome": "Front-end",
+      "descricao": "Videos sobre desenvolvimento front-end",
+      "cor": "#6BD1FF"
+    },
+    {
+      "id": 3,
+      "nome": "Back-end",
+      "descricao": "Videos sobre desenvolvimento back-end",
+      "cor": "#00C86F"
+    },
+
+    {
       "id": 4,
-      "nome": "Data Science e Inteligência Artificial",
-      "descricao": "Videos sobre Data Science e IA ",
-      "cor": "#9cd33b"
+      "nome": "Cyber Security",
+      "descricao": "Videos sobre segurança da informação ",
+      "cor": "gray"
     },
     {
       "id": 5,
+      "nome": "Experimentos com tecnologia",
+      "descricao": "Videos sobre experimentos relacionados à tecnologia",
+      "cor": "#6b5be2"
+    },
+    {
+      "id": 6,
       "nome": "Filmes",
       "descricao": "Videos recomendados de filmes ",
       "cor": "orange"
     },
     {
-      "id": 6,
+      "id": 7,
       "nome": "Games",
       "descricao": "Videos recomendados de games ",
       "cor": "red"
-    },
-    {
-      "id": 7,
-      "nome": "Aprendendo a aprender tecnologia",
-      "descricao": "Videos sobre dicas de como estudar de forma eficiente ",
-      "cor": "#6b5be2"
     }
   ]
 }
