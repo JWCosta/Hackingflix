@@ -13,7 +13,9 @@ import PageError from "./pages/PageError";
 
 const Pagina404 = () => (
   <PageDefault>
-    <Link to="/">Ir para Home</Link>
+    <div>
+      <Link to="/">Ir para Home</Link>
+    </div>
     <PageError>
       <img src={Ops} alt="Imagem sorry página não encontrada" />
     </PageError>
