@@ -35,7 +35,7 @@ export default function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = "http://localhost:8080/categorias";
+    const URL = "https://hackingflix.herokuapp.com/categorias";
 
     fetch(URL).then(async (res) => {
       const retorno = await res.json();
