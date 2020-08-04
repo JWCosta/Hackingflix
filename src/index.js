@@ -2,15 +2,33 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
-import CadastroVideo from './pages/cadastro/Video'
-import Home from './pages/Home'
+import CadastroVideo from "./pages/cadastro/Video";
+import Home from "./pages/Home";
 import CadastroCategoria from "./pages/cadastro/Categoria";
+import PageDefault from "./components/PageDefault";
+import Ops from "./assets/img/ops.png";
 
 const Pagina404 = () => (
-  <div>Página 404</div>
-)
+  <PageDefault>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+      }}
+    >
+      <h1>Página não encontrada !!</h1>
+      <img
+        style={{ width: "500px" }}
+        src={Ops}
+        alt="Imagem 404 página não encontrada"
+      />
+    </div>
+    <Link to="/">Ir para Home</Link>
+  </PageDefault>
+);
 
 ReactDOM.render(
   <BrowserRouter>
