@@ -52,7 +52,7 @@
       },
       "videos": [
         {
-          "titulo": "Seja um Programador Back-End de Sucesso (dicas que gostaríamos ter recebido) // Vlog #98",
+          "titulo": "Seja um Programador Back-End de Sucesso (dicas que gostaríamos ter recebido)",
           "url": "https://www.youtube.com/watch?v=TJ90DZjYdWI"
         },
         {
@@ -74,12 +74,8 @@
       ]
     },
     {
-      "titulo": "Linux e suas curiosidades",
+      "titulo": "Linux",
       "cor": "#6B9AFF",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
       "videos": [
         {
           "titulo": "O que é Linux? (Explicação COMPLETA para iniciantes) - 2020",

@@ -1,6 +1,6 @@
 import React from "react";
 import { VideoCardContainer } from "./styles";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 
 function getYouTubeId(youtubeURL) {
   return youtubeURL.replace(
@@ -20,7 +20,9 @@ function VideoCard({ videoTitle, videoURL, categoryColor }) {
       target="_blank"
       style={{ borderColor: categoryColor || "red" }}
       title={videoTitle}
-    />
+    >
+      <h2>{videoTitle}</h2>
+    </VideoCardContainer>
   );
 }
 

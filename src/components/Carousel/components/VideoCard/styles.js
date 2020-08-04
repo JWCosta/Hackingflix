@@ -8,8 +8,8 @@ export const VideoCardContainer = styled.a`
   cursor: pointer;
   color: white;
   flex: 0 0 298px;
-  width: 380px;
-  height: 300px;
+  width: 298px;
+  height: 187px;
   background-image: ${({ url }) => `url(${url})`};
   background-size: cover;
   background-position: center;
@@ -17,15 +17,43 @@ export const VideoCardContainer = styled.a`
   position: relative;
   display: flex;
   align-items: flex-end;
-  padding: 12px;
+  padding: 16px;
 
   transition: opacity 0.3s;
+
+  &:after {
+    content: "";
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+  }
+
   &:hover,
   &:focus {
-    opacity: 0.5;
+    opacity: 0.9;
+    &:after {
+      opacity: 1;
+    }
+    h2 {
+      opacity: 1;
+    }
   }
 
   &:not(:first-child) {
     margin-left: 20px;
+  }
+  h2 {
+    position: sticky;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s;
   }
 `;

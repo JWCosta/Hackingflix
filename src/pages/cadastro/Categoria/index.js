@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import PageDefault from "../../../components/PageDefault";
 import FormField from "../../../components/FormField";
+import Button from "../../../components/Button";
 
 export default function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
@@ -32,6 +33,15 @@ export default function CadastroCategoria() {
     event.preventDefault();
     setCategorias([...categorias, values]);
   }
+
+  useEffect(() => {
+    const URL = "http://localhost:8080/categorias";
+
+    fetch(URL).then(async (res) => {
+      const retorno = await res.json();
+      setCategorias([...retorno]);
+    });
+  });
 
   return (
     <PageDefault>
@@ -64,12 +74,14 @@ export default function CadastroCategoria() {
           onChange={onChangeInput}
         />
 
-        <button>Cadastrar</button>
+        <Button>Cadastrar</Button>
       </form>
 
+      {categorias.length === 0 && <div>Loading ...</div>}
+
       <ul>
-        {categorias.map((categoria, index) => {
-          return <li key={`${categoria}${index}`}>{categoria.nome}</li>;
+        {categorias.map((categoria) => {
+          return <li key={`${categoria.nome}`}>{categoria.nome}</li>;
         })}
       </ul>
 
