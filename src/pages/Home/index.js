@@ -23,6 +23,7 @@ function Home() {
       <Carousel category={dadosIniciais.categorias[4]} />
       <Carousel category={dadosIniciais.categorias[5]} />
       <Carousel category={dadosIniciais.categorias[6]} />
+      <Carousel category={dadosIniciais.categorias[7]} />
 
       <Footer />
     </div>

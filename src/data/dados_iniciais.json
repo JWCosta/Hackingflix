@@ -123,6 +123,28 @@
       ]
     },
     {
+      "titulo": "Ethical Hacking",
+      "cor": "#956462",
+      "videos": [
+        {
+          "titulo": "Hacker profissional responde perguntas sobre hacking do instagram | Pentest",
+          "url": "https://www.youtube.com/watch?v=d_jScH016Zw"
+        },
+        {
+          "titulo": "Qual Linguagem de Programação estudar para ser um Hacker?",
+          "url": "https://www.youtube.com/watch?v=GlB8oz2lizs"
+        },
+        {
+          "titulo": "Como virar um Hacker ?",
+          "url": "https://www.youtube.com/watch?v=7HKOskNj7bk"
+        },
+        {
+          "titulo": "HACKEANDO pela fragilidade HUMANA (ft. Metaforando)",
+          "url": "https://www.youtube.com/watch?v=8HTVgCt-ubQ"
+        }
+      ]
+    },
+    {
       "titulo": "Experimentos com tecnologia",
       "cor": "#6b5be2",
       "videos": [
@@ -173,10 +195,6 @@
     {
       "titulo": "Games",
       "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
       "videos": [
         {
           "titulo": "God of War 4",

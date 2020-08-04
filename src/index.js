@@ -9,24 +9,14 @@ import Home from "./pages/Home";
 import CadastroCategoria from "./pages/cadastro/Categoria";
 import PageDefault from "./components/PageDefault";
 import Ops from "./assets/img/ops.png";
+import PageError from "./pages/PageError";
 
 const Pagina404 = () => (
   <PageDefault>
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "row",
-        justifyContent: "center",
-      }}
-    >
-      <h1>Página não encontrada !!</h1>
-      <img
-        style={{ width: "500px" }}
-        src={Ops}
-        alt="Imagem 404 página não encontrada"
-      />
-    </div>
     <Link to="/">Ir para Home</Link>
+    <PageError>
+      <img src={Ops} alt="Imagem sorry página não encontrada" />
+    </PageError>
   </PageDefault>
 );
 

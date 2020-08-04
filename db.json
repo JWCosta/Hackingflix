@@ -27,12 +27,18 @@
     },
     {
       "id": 5,
+      "nome": "Ethical Hacking",
+      "descricao": "Videos sobre sobre experimentos hacking e como se tornar um hacker",
+      "cor": "#956462"
+    },
+    {
+      "id": 6,
       "nome": "Experimentos com tecnologia",
       "descricao": "Videos sobre experimentos relacionados à tecnologia",
       "cor": "#6b5be2"
     },
     {
-      "id": 6,
+      "id": 7,
       "nome": "Filmes",
       "descricao": "Videos recomendados de filmes ",
       "cor": "orange"
