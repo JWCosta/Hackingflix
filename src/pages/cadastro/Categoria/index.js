@@ -3,36 +3,18 @@ import { Link } from "react-router-dom";
 import PageDefault from "../../../components/PageDefault";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
+import useForm from "../../../hooks";
 
 export default function CadastroCategoria() {
-  const [categorias, setCategorias] = useState([]);
-
   const valoresIniciais = {
     nome: "",
     descricao: "",
     cor: "#ffffff",
   };
 
-  const [values, setValues] = useState(valoresIniciais);
+  const { onChangeInput, values, handleSubmit } = useForm(valoresIniciais);
 
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function onChangeInput(valueCategoria) {
-    setValue(
-      valueCategoria.target.getAttribute("name"),
-      valueCategoria.target.value
-    );
-  }
-
-  function handleSubmit(event) {
-    event.preventDefault();
-    setCategorias([...categorias, values]);
-  }
+  const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
     const URL = "https://hackingflix.herokuapp.com/categorias";
