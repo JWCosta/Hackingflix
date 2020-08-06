@@ -80,8 +80,8 @@ export default function FormField({
   const isTextArea = type === "textarea";
   const tag = isTextArea ? "textarea" : "input";
 
-  const hasValue = [value.length];
-  const hasSuggestions = [value.length];
+  const hasValue = Boolean(value);
+  const hasSuggestions = Boolean(value);
 
   return (
     <FormFieldWrapper>

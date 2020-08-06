@@ -7,11 +7,7 @@ import useForm from "../../../hooks/useForm";
 import URL_BACKEND from "../../../config";
 
 export default function CadastroCategoria() {
-  const valoresIniciais = {
-    nome: "Nome da categoria",
-    descricao: "Descreva sua categoria",
-    cor: "#ffffff",
-  };
+  const valoresIniciais = {};
 
   const { onChangeInput, values, handleSubmit } = useForm(valoresIniciais);
 
@@ -30,7 +26,7 @@ export default function CadastroCategoria() {
 
       <form onSubmit={handleSubmit}>
         <FormField
-          label="Nome da Categoria: "
+          label="Nome da Categoria"
           type="text"
           placeholder="Nova Categoria"
           value={values.nome}
@@ -39,7 +35,7 @@ export default function CadastroCategoria() {
         />
 
         <FormField
-          label="Descrição: "
+          label="Descrição"
           type="textarea"
           placeholder="Descreva sua categoria"
           value={values.descricao}
@@ -48,7 +44,7 @@ export default function CadastroCategoria() {
         />
 
         <FormField
-          label="Cor: "
+          label="Cor"
           type="color"
           value={values.cor}
           name="cor"
