@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import PageDefault from "../../../components/PageDefault";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
-import useForm from "../../../hooks";
+import useForm from "../../../hooks/useForm";
+import URL_BACKEND from "../../../config";
 
 export default function CadastroCategoria() {
   const valoresIniciais = {
@@ -17,9 +18,7 @@ export default function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    const URL = "https://hackingflix.herokuapp.com/categorias";
-
-    fetch(URL).then(async (res) => {
+    fetch(`${URL_BACKEND}/categorias`).then(async (res) => {
       const retorno = await res.json();
       setCategorias([...retorno]);
     });
