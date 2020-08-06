@@ -7,7 +7,11 @@ import useForm from "../../../hooks/useForm";
 import URL_BACKEND from "../../../config";
 
 export default function CadastroCategoria() {
-  const valoresIniciais = {};
+  const valoresIniciais = {
+    nome: "Nome da categoria",
+    descricao: "Descreva sua categoria",
+    cor: "#ffffff",
+  };
 
   const { onChangeInput, values, handleSubmit } = useForm(valoresIniciais);
 
