@@ -6,6 +6,7 @@ import Button from "../../../components/Button";
 import useForm from "../../../hooks/useForm";
 import URL_BACKEND from "../../../config";
 import repositories from "../../../repositories/categorias";
+import Loading from "../../../components/Loading";
 
 export default function CadastroCategoria() {
   const valoresIniciais = { titulo: "", descricao: "", cor: "" };
@@ -75,7 +76,7 @@ export default function CadastroCategoria() {
         <Button>Cadastrar</Button>
       </form>
 
-      {categorias.length === 0 && <div>Loading ...</div>}
+      {categorias.length === 0 && <Loading />}
 
       <ul>
         {categorias.map((categoria) => {
