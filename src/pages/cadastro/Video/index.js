@@ -5,20 +5,20 @@ import useForm from "../../../hooks/useForm";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
 import Create from "../../../repositories/videos";
-import getAllCategories from "../../../repositories";
+import repositories from "../../../repositories/categorias";
 
 export default function CadastroVideo() {
   const history = useHistory();
   const [categorias, setCategorias] = useState([]);
   const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { onChangeInput, values } = useForm({
-    titulo: "Título do vídeo",
-    url: "https://www.youtube.com/watch?v=y-4Rge7RP-I",
-    categoria: "Nome da Categoria",
+    titulo: "",
+    url: "",
+    categoria: "",
   });
 
   useEffect(() => {
-    getAllCategories().then((categoriasFromServer) => {
+    repositories.getAllCategories().then((categoriasFromServer) => {
       setCategorias(categoriasFromServer);
     });
   }, []);

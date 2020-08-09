@@ -80,8 +80,8 @@ export default function FormField({
   const isTextArea = type === "textarea";
   const tag = isTextArea ? "textarea" : "input";
 
-  const hasValue = Boolean(value);
-  const hasSuggestions = Boolean(value);
+  const hasValue = Boolean(value.length);
+  const hasSuggestions = Boolean([value.length]);
 
   return (
     <FormFieldWrapper>
@@ -118,16 +118,15 @@ export default function FormField({
 
 FormField.defaultProps = {
   type: "text",
-  placeholder: "",
-  onChange: () => {},
+  value: "",
   suggestions: [],
 };
 
 FormField.propTypes = {
   label: PropTypes.string.isRequired,
   type: PropTypes.string,
+  value: PropTypes.string,
   name: PropTypes.string.isRequired,
-  placeholder: PropTypes.string,
-  onChange: PropTypes.func,
+  onChange: PropTypes.func.isRequired,
   suggestions: PropTypes.arrayOf(PropTypes.string),
 };

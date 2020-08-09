@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 import PageDefault from "../../components/PageDefault";
 import BannerMain from "../../components/BannerMain";
 import Carousel from "../../components/Carousel";
-import getAllVideos from "../../repositories/categorias";
+import repositories from "../../repositories/categorias";
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
 
   useEffect(() => {
-    getAllVideos()
+    repositories
+      .getAllVideos()
       .then((categoriasAndVideos) => {
         setDadosIniciais(categoriasAndVideos);
       })

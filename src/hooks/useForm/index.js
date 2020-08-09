@@ -32,5 +32,6 @@ export default function useForm(valoresIniciais) {
     values,
     onChangeInput,
     clearForm,
+    handleSubmit,
   };
 }
