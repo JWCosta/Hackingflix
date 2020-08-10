@@ -27,7 +27,7 @@ export default function CadastroVideo() {
 
   return (
     <PageDefault>
-      <h1>Página de cadastro</h1>
+      <h1>Cadastro de Vídeo</h1>
 
       <form
         onSubmit={(event) => {
