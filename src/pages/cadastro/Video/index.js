@@ -81,7 +81,7 @@ export default function CadastroVideo() {
           Nova Categoria
         </Button>
 
-        <Button as={Link} to="/" style={{ marginBottom: 10 }}>
+        <Button as={Link} to="/" style={{ marginBottom: 10, marginLeft: 8 }}>
           Voltar para Home
         </Button>
       </form>
