@@ -14,9 +14,6 @@ export default function Menu() {
         <Button as={Link} to="/cadastro/video" className="ButtonLink">
           Novo Vídeo
         </Button>
-        <Button as={Link} to="/cadastro/categoria" className="ButtonLink">
-          Nova Categoria
-        </Button>
       </div>
     </nav>
   );

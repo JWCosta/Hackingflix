@@ -74,6 +74,10 @@ export default function CadastroCategoria() {
         />
 
         <Button>Cadastrar</Button>
+
+        <Button as={Link} to="/" style={{ marginBottom: 15 }}>
+          Ir para Home
+        </Button>
       </form>
 
       {categorias.length === 0 && <Loading />}
@@ -83,10 +87,6 @@ export default function CadastroCategoria() {
           return <li key={`${categoria.titulo}`}>{categoria.titulo}</li>;
         })}
       </ul>
-
-      <Button as={Link} to="/" style={{ marginBottom: 15 }}>
-        Ir para Home
-      </Button>
     </PageDefault>
   );
 }

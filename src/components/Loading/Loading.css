@@ -28,7 +28,7 @@
   height: 5px;
   border-radius: 5px;
   background: #16202b;
-  animation: preloader 1s infinite ease-in-out;
+  animation: preloader 0.8s infinite ease-in-out;
 }
 
 .preloader span:nth-child(2) {
