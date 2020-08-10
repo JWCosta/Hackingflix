@@ -75,7 +75,7 @@ export default function CadastroCategoria() {
 
         <Button>Cadastrar</Button>
 
-        <Button as={Link} to="/" style={{ marginBottom: 15 }}>
+        <Button as={Link} to="/" style={{ marginLeft: 8 }}>
           Ir para Home
         </Button>
       </form>

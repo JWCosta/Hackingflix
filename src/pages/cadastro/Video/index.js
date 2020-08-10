@@ -77,11 +77,11 @@ export default function CadastroVideo() {
           Cadastrar
         </Button>
 
-        <Button as={Link} to="/cadastro/categoria" className="ButtonLink">
+        <Button as={Link} to="/cadastro/categoria" style={{ marginLeft: 8 }}>
           Nova Categoria
         </Button>
 
-        <Button as={Link} to="/" className="ButtonLink">
+        <Button as={Link} to="/" style={{ marginBottom: 10 }}>
           Voltar para Home
         </Button>
       </form>
