@@ -39,6 +39,7 @@ export const VideoCardContainer = styled.a`
   &:hover,
   &:focus {
     opacity: 0.9;
+
     &:after {
       opacity: 1;
     }
