@@ -84,7 +84,9 @@ export default function CadastroCategoria() {
         })}
       </ul>
 
-      <Link to="/">Ir para Home</Link>
+      <Button as={Link} to="/" style={{ marginBottom: 15 }}>
+        Ir para Home
+      </Button>
     </PageDefault>
   );
 }

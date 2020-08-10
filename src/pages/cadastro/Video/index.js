@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PageDefault from "../../../components/PageDefault";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import useForm from "../../../hooks/useForm";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
@@ -73,10 +73,10 @@ export default function CadastroVideo() {
           suggestions={categoryTitles}
         />
 
-        <Button type="submit">Cadastrar</Button>
+        <Button type="submit" style={{ marginBottom: 15 }}>
+          Cadastrar
+        </Button>
       </form>
-
-      <Link to="/cadastro/categoria">Cadastrar categoria</Link>
     </PageDefault>
   );
 }
